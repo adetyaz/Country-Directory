@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: 'Country-Directory'
-}
+    publicPath: "",
+};
