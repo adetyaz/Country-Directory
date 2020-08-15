@@ -74,7 +74,7 @@ export default {
         return response.json();
       })
       .then(data => {
-        this.countries = data.slice(0, 50);
+        this.countries = data.slice(0, 500);
       });
   },
   methods: {
@@ -125,7 +125,6 @@ export default {
   bottom: 2rem;
   left: 10.5rem;
   background: beige;
-
   display: flex;
   align-items: center;
   padding: 5rem 14rem;
@@ -166,6 +165,7 @@ select {
   margin: 2rem 0;
   display: block;
   background-color: rgb(244, 245, 201);
+  color: black;
 }
 .error {
   margin: 2rem 0;
